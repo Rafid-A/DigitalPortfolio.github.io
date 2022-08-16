@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a {
+    font-family: "DM Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: red;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+.text-box{
+    color: #edf0f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.text-box p{
+    font-family: "DM Mono", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 140px;
+    line-height: 160px;
+    margin-left: -10px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
