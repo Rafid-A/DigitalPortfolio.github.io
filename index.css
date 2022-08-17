@@ -54,7 +54,6 @@ header {
     font-weight: 600;
     text-align: center;
     opacity: 0;
-    text-transform:uppercase;
     animation:fade 1000ms ease-in-out forwards;
 }
 
@@ -73,7 +72,6 @@ header {
     font-weight: 600;
     text-align: center;
     opacity: 0;
-    text-transform:uppercase;
     animation:fade 1000ms ease-in-out forwards;
 }
 
@@ -92,7 +90,6 @@ header {
     font-weight: 600;
     text-align: center;
     opacity: 0;
-    text-transform:uppercase;
     animation:fade 1000ms ease-in-out forwards;
 }
 
