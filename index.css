@@ -51,7 +51,7 @@ header {
 .text-box p{
     font-family: "DM Mono", sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
@@ -69,7 +69,7 @@ header {
 .text-box2 p{
     font-family: "DM Mono", sans-serif;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
@@ -87,8 +87,22 @@ header {
 .text-box3 p{
     font-family: "DM Mono", sans-serif;
     font-size: 33px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
+    opacity: 0;
+    animation:fade 1000ms ease-in-out forwards;
+}
+
+.text-box4{
+    color: #edf0f1;
+}
+
+.text-box4 p{
+    font-family: "DM Mono", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 40px;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
 }
@@ -106,6 +120,44 @@ header {
     opacity: 0;
     animation: back 20s linear infinite,fade 1000ms ease-in-out forwards;
     
+}
+
+.text-box4 h1{
+    font-size: 50px;
+    line-height: 100px;
+    margin-left: 10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    opacity: 0;
+    animation: back 20s linear infinite,fade 1000ms ease-in-out forwards;
+    
+}
+
+.text-box4 img {
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-box4 iframe {
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.title {
+    text-align: center;
+}
+
+.text-box4 a img {
+    width: 100px;
 }
 
 @keyframes back{
