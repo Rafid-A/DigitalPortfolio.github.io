@@ -53,6 +53,7 @@ header {
     font-size: 50px;
     font-weight: 400;
     text-align: center;
+    line-height: 40px;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
 }
@@ -71,6 +72,7 @@ header {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+    line-height: 40px;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
 }
@@ -89,6 +91,7 @@ header {
     font-size: 33px;
     font-weight: 400;
     text-align: center;
+    line-height: 40px;
     opacity: 0;
     animation:fade 1000ms ease-in-out forwards;
 }
