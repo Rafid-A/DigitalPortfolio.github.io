@@ -117,7 +117,7 @@ header {
     text-align: center;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(../Images/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     opacity: 0;
@@ -131,7 +131,7 @@ header {
     margin-left: 10px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(../Images/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     opacity: 0;
