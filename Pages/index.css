@@ -145,6 +145,10 @@ header {
     width: 100px;
 }
 
+.text-box3 img {
+    width: 400px;
+}
+
 @keyframes back{
     100%{
         background-position: 2000px 0;
