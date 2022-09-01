@@ -46,6 +46,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    user-select: none;
 }
 
 .text-box p{
@@ -64,12 +65,12 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    user-select: none;
 }
 
 .text-box2 p{
     font-family: "DM Mono", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     text-align: center;
     line-height: 40px;
@@ -79,6 +80,7 @@ header {
 
 .text-box3{
     color: #edf0f1;
+    user-select: none;
 }
 
 .text-box3 p{
