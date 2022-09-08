@@ -94,6 +94,22 @@ header {
     animation:fade 1000ms ease-in-out forwards;
 }
 
+.text-box4{
+    color: #edf0f1;
+    user-select: none;
+}
+
+.text-box4 p{
+    font-family: "DM Mono", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+    opacity: 0;
+    animation:fade 1000ms ease-in-out forwards;
+}
+
 .text-box h1{
     font-size: 140px;
     line-height: 160px;
@@ -110,6 +126,20 @@ header {
 }
 
 .text-box3 h1{
+    font-size: 50px;
+    line-height: 100px;
+    margin-left: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../Images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    opacity: 0;
+    animation: back 20s linear infinite,fade 1000ms ease-in-out forwards;
+    
+}
+
+.text-box4 h1{
     font-size: 50px;
     line-height: 100px;
     margin-left: 20px;
@@ -156,6 +186,16 @@ header {
 
 }
 
+.text-box4 img {
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+
 .text-box3 iframe {
     margin-left: 10px;
     display: block;
@@ -185,8 +225,16 @@ header {
     width: 100px;
 }
 
+.text-box4 a img {
+    width: 100px;
+}
+
 .text-box3 img {
     width: 750px;
+}
+
+.text-box4 img {
+    width: 300px;
 }
 
 @keyframes back{
