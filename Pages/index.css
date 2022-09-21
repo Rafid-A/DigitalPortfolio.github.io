@@ -61,11 +61,10 @@ header {
 
 .text-box2{
     color: #edf0f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     user-select: none;
+    min-width: 75%;
+    max-width: 75%;
+    margin:auto;
 }
 
 .text-box2 p{
@@ -125,7 +124,23 @@ header {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     background: url(../Images/back.png);
+    background-clip: text;
     -webkit-background-clip: text;
+    background-position: 0 0;
+    opacity: 0;
+    animation: back 20s linear infinite,fade 1000ms ease-in-out forwards;
+    
+}
+
+.text-box2 h1{
+    font-size: 50px;
+    line-height: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../Images/back.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
     background-position: 0 0;
     opacity: 0;
     animation: back 20s linear infinite,fade 1000ms ease-in-out forwards;
@@ -138,6 +153,7 @@ header {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     background: url(../Images/back.png);
+    background-clip: text;
     -webkit-background-clip: text;
     background-position: 0 0;
     opacity: 0;
@@ -152,6 +168,7 @@ header {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     background: url(../Images/back.png);
+    background-clip: text;
     -webkit-background-clip: text;
     background-position: 0 0;
     opacity: 0;
