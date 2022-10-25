@@ -116,6 +116,17 @@ header {
     animation:fade 1000ms ease-in-out forwards;
 }
 
+.text-box4 h3 a{
+    font-family: "DM Mono", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0;
+    animation:fade 1000ms ease-in-out forwards;
+}
+
 .text-box h1{
     font-family: "DM Mono", sans-serif;
     font-size: 100px;
