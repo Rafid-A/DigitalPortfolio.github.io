@@ -116,6 +116,17 @@ header {
     animation:fade 1000ms ease-in-out forwards;
 }
 
+.text-box3 p{
+    font-family: "DM Mono", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2;
+    opacity: 0;
+    animation:fade 1000ms ease-in-out forwards;
+}
+
 .text-box4 a{
     font-family: "DM Mono", sans-serif;
     font-size: 25px;
@@ -317,16 +328,16 @@ header {
     width: 100px;
 }
 
-.text-box4 a img {
-    width: 100px;
-}
+/* .text-box4 a img { */
+/*     width: 50%vw; */
+/* } */
 
 .text-box3 img {
     width: 750px;
 }
 
 .text-box4 img {
-    width: 700px;
+    width: 500px;
 }
 
 .Reference {
